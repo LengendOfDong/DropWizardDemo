@@ -39,10 +39,4 @@ public class HelloWorldConfiguration extends Configuration {
     public void setDefaultName(String name){
         this.defaultName = name;
     }
-
-    public static void main(String[] args){
-        HelloWorldConfiguration helloWorldConfiguration = new HelloWorldConfiguration();
-        System.out.println(helloWorldConfiguration.getDefaultName());
-        System.out.println(helloWorldConfiguration.getTemplate());
-    }
 }
